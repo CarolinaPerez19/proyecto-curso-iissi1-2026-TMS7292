@@ -1,11 +1,11 @@
 # Título Proyecto
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo L4-FJO-6 (sustituir)
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. Gavira Baeza, Carmen
+1. Pérez Soria, Carolina
+1. Cook González, Elena Joana
+1. Toajas Samanego, Marco
 
 ## 1. Introducción al problema
 
