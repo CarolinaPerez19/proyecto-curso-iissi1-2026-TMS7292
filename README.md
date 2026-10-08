@@ -45,6 +45,12 @@
 
 
 ### 3.2. Usuarios del sistema
+En la aplicación se pueden identificar principalmente dos tipos de usuarios:
+1. Clientes
+Son las personas que utilizan la aplicación para consultar y solicitar los servicios ofrecidos por Eatsii. Podrán registrarse en la plataforma, consultar las opciones disponibles que mejor se adapten a sus necesidades y especificar posibles alergias o intolerancias
+2. Administradores de Eatsii
+Serán los responsables de gestionar la información de la empresa dentro de la aplicación. Podrán administrar los servicios y espacios disponibles, actualizar precios y características, consultar las solicitudes realizadas por los clientes y gestionar la información relacionada con los eventos. También podrán valorar la viabilidad de desplazarse a las localizaciones propuestas por los clientes.
+
 
 ## 4. Catálogo de requisitos
 
