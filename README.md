@@ -4,7 +4,7 @@
 
 1. Gavira Baeza, Carmen
 1. Pérez Soria, Carolina
-1. Cook González, Elena Joana
+1. Cook González, Elena Joanna
 1. Toajas Samanego, Marco
 
 ## 1. Introducción al problema
