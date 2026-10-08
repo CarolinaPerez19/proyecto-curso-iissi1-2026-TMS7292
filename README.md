@@ -26,12 +26,19 @@
 
 ### 3.1. Requisitos generales
 **Registro e inicio de sesión** de los usuarios.
+
 **Consulta de los servicios disponibles**, incluyendo las diferentes opciones gastronómicas y espacios para la celebración de eventos.
+
 **Selección del tipo de evento**, como bodas, cumpleaños, reuniones, celebraciones u otros eventos.
+
 **Indicación del presupuesto disponible**, de manera que el sistema pueda mostrar opciones que se ajusten a las posibilidades económicas del usuario.
+
 **Información sobre alergias e intolerancias alimentarias**, permitiendo al cliente indicar aquellos alimentos que debe evitar.
+
 **Consulta de la disponibilidad** de los espacios y servicios para la fecha seleccionada.
+
 **Información detallada de cada servicio**, incluyendo sus características, condiciones y precio orientativo.
+
 **Adaptación a eventos** fuera de las instalaciones de Eatsii, siempre que la localización propuesta por el cliente sea viable para la empresa.
 
 
