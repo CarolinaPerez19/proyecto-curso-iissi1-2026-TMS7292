@@ -11,7 +11,7 @@
 
 <dd>&emsp;&emsp;El catering Eatsii desarrolla su actividad en la provincia de Sevilla y tiene su sede en la calle Carmona, 6. Se trata de una empresa de tamaño mediano que, además de ofrecer una amplia propuesta gastronómica especializadas en celebraciones privadas y eventos corporativos, dispone de diferentes espacios habilitados para la celebración de eventos. Asimismo, ofrece la posibilidad de desplazarse a otras localizaciones propuestas por los clientes, siempre que las condiciones del lugar y la organización del evento lo permitan.
   
- Solicita el desarrollo de una aplicación cuya función principal sea conectar a los clientes con los servicios que puede proporcionar su empresa, se amoldarán a las necesidades de cada usuario. Dichos servicios se basarán en los tipos de eventos, presupuestos y alérgenos que cada consumidor precise.
+<dd>&emsp;&emsp;Solicita el desarrollo de una aplicación cuya función principal sea conectar a los clientes con los servicios que puede proporcionar su empresa, se amoldarán a las necesidades de cada usuario. Dichos servicios se basarán en los tipos de eventos, presupuestos y alérgenos que cada consumidor precise.
 
 
 <img width="1024" height="559" alt="d5435e34-a33c-4898-b274-daa7d004905c" src="https://github.com/user-attachments/assets/cb153172-313f-4cf0-83fa-75fb4ba987d4" />
