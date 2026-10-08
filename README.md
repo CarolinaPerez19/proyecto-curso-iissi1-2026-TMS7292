@@ -1,6 +1,6 @@
 # Título Proyecto
 
-## Miembros del grupo L4-FJO-6 (sustituir)
+## Miembros del grupo L4-FJO-6
 
 1. Gavira Baeza, Carmen
 1. Pérez Soria, Carolina
@@ -40,6 +40,8 @@
 **Información detallada de cada servicio**, incluyendo sus características, condiciones y precio orientativo.
 
 **Adaptación a eventos** fuera de las instalaciones de Eatsii, siempre que la localización propuesta por el cliente sea viable para la empresa.
+
+
 
 
 ### 3.2. Usuarios del sistema
