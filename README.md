@@ -148,7 +148,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.01. Información de los usuarios
 
 **Como** administrador
+
 **quiero** disponer de la información identificativa de los usuarios
+
 **para** gestionar sus cuentas y controlar el acceso a la aplicación.
 
 **Prueba de aceptación**
@@ -161,7 +163,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.02. Información de los servicios
 
 **Como** administrador
+
 **quiero** almacenar la información de los servicios ofrecidos por Eatsii
+
 **para** mantener actualizado el catálogo de la empresa.
 
 **Prueba de aceptación**
@@ -175,7 +179,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.03. Información de los espacios 
 
 **Como** administrador 
+
 **quiero** almacenar los datos de los espacios de Eatsii 
+
 **para** conocer sus características y gestionar su utilización.
 
 **Prueba de aceptación**
@@ -189,7 +195,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.04. Información de los tipos de evento
 
 **Como** administrador
+
 **quiero** almacenar los tipos de evento admitidos por la empresa
+
 **para** clasificar las solicitudes de los clientes.
 
 **Prueba de aceptación**
@@ -202,7 +210,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.05. Información de las solicitudes 
 
 **Como** cliente 
+
 **quiero** que se almacenen los datos de mi solicitud 
+
 **para** poder consultar su estado y conocer las condiciones de mi evento.
 
 **Prueba de aceptación**
@@ -217,7 +227,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.06. Información de alergias e intolerancias 
 
 **Como** cliente
+
 **quiero** que se almacenen las alergias e intolerancias relevantes 
+
 **para** mi evento para que Eatsii pueda tenerlas en cuenta.
 
 **Prueba de aceptación**
@@ -231,7 +243,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.07. Información de presupuestos 
 
 **Como** cliente
+
 **quiero** consultar el presupuesto asociado a mi solicitud 
+
 **para** conocer el coste del evento.
 
 **Prueba de aceptación**
@@ -244,7 +258,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.08. Información de reservas y disponibilidad 
 
 **Como** administrador
+
 **quiero** almacenar las reservas confirmadas
+
 **para** controlar la ocupación de los espacios y evitar incompatibilidades de fechas y horarios.
 
 **Prueba de aceptación**
@@ -259,7 +275,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.09. Información de los alérgenos presentes en los servicios 
 
 **Como** administrador 
+
 **quiero** registrar los alérgenos asociados a cada servicio gastronómico
+
 **para** proporcionar información alimentaria a los clientes.
 
 **Prueba de aceptación**
@@ -273,7 +291,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.10. Información de las notificaciones
 
 **Como** usuario
+
 **quiero** que se almacenen las notificaciones recibidas 
+
 **para** consultar los cambios relevantes relacionados con mis solicitudes.
 
 **Prueba de aceptación**
@@ -287,7 +307,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 ##### R.I.11.  Información de las ubicaciones externas 
 
 **Como** administrador 
+
 **quiero** disponer de los datos de las ubicaciones externas propuestas por los clientes 
+
 **para** evaluar si es viable prestar el servicio fuera de las instalaciones de Eatsii.
 
 **Prueba de aceptación**
