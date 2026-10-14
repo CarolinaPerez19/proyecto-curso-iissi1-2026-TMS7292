@@ -41,24 +41,23 @@
 
 ### 3.1. Requisitos generales
 
-**Registro e inicio de sesión** de los usuarios.
+- **R.G.01. Registro e inicio de sesión:** La aplicación permitirá a los usuarios registrarse e iniciar sesión, diferenciando entre usuarios y clientes.
 
-**Consulta de los servicios disponibles**, incluyendo las diferentes opciones gastronómicas y espacios para la celebración de eventos.
+- **R.G.02. Consulta de los servicios disponibles:** La aplicación permitirá consultar las diferentes opciones gastronómicas ofrecidas por la empresa, así como los espacios disponibles para la celebración de eventos.
 
-**Selección del tipo de evento**, como bodas, cumpleaños, reuniones, celebraciones u otros eventos.
+- **R.G.03. Selección del tipo de evento:** La aplicación permitirá seleccionar el tipo de evento que se desea organizar.
 
-**Indicación del presupuesto disponible**, de acuerdo a las opciones elegidas por el usuario.
+- **R.G.04. Indicación del presupuesto disponible:** La aplicación permitirá indicar el presupuesto disponible para el evento, teniendo en cuenta las opciones elegidas por el usuario.
 
-**Información sobre alergias e intolerancias alimentarias**, permitiendo al cliente indicar aquellos alimentos que debe evitar.
+- **R.G.05. Información sobre alergias e intolerancias alimentarias:** La aplicación permitirá al cliente indicar las alergias e intolerancias alimentarias que deban tenerse en cuenta en la elaboración del menú.
 
-**Consulta de la disponibilidad** de los espacios y servicios para la fecha seleccionada.
+- **R.G.06. Consulta de la disponibilidad:** La aplicación permitirá consultar la disponibilidad de los espacios y servicios para la fecha seleccionada.
 
-**Información detallada de cada servicio**, incluyendo sus características y condiciones.
+- **R.G.07. Información detallada de cada servicio:** La aplicación proporcionará información sobre las características y condiciones de cada servicio ofrecido por la empresa.
 
-**Adaptación a eventos** fuera de las instalaciones de Eatsii, siempre que la localización propuesta por el cliente sea viable para la empresa.
+- **R.G.08. Adaptación a eventos fuera de las instalaciones de Eatsii:** La aplicación permitirá solicitar servicios en otras localizaciones propuestas por el cliente, siempre que sean viables para la empresa.
 
-
-
+- - **R.G.08. Gestion de solicitudes por parte del administrador:** La aplicación permitirá al administrador consultar, revisar y confirmar las solicitudes de reserva realizadas por los clientes.
 
 ### 3.2. Usuarios del sistema
 En la aplicación se pueden identificar principalmente dos tipos de usuarios:
