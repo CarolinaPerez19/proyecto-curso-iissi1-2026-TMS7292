@@ -114,9 +114,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 
 **Prueba de aceptación** 
--Verificar que el usuario pueda marcar uno o varios alérgenos del catálogo en su perfil o solicitud.
--Comprobar que las propuestas gastronómicas muestren advertencias explícitas o alternativas para los alérgenos marcados.
+- Verificar que el usuario pueda marcar uno o varios alérgenos del catálogo en su perfil o solicitud.
 
+- Comprobar que las propuestas gastronómicas muestren advertencias explícitas o alternativas para los alérgenos marcados.
 
 
 #### R.F.04. Solicitud de eventos en localizaciones de Eatsii
