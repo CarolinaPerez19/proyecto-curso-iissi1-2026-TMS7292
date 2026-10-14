@@ -17,10 +17,25 @@
 <img width="1024" height="559" alt="d5435e34-a33c-4898-b274-daa7d004905c" src="https://github.com/user-attachments/assets/cb153172-313f-4cf0-83fa-75fb4ba987d4" />
 
 
-
 ## 2. Glosario de términos
 
-- Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
+- **Administrador:** Son aquellos usuarios miembros de la empresa que revisan y confirman las solicitudes hechas por los clientes.
+- **Alérgenos:** Sustancias presentes en los alimentos que pueden provocar reacciones alérgicas.
+- **Camareros:** Personal encargado de servir la comida y atender a los clientes durante el evento.
+- **Capacidad / Aforo:** Número máximo de personas que pueden asistir a un evento.
+- **Cliente:** Son los usuarios que solicitan los servicios de catering.
+- **Cocineros:** Personal responsable de preparar y elaborar los platos del menú.
+- **Contaminación cruzada:** Transferencia accidental de alérgenos o contaminantes entre alimentos, utensilios o superficies.
+- **Duración:** Tiempo estimado de prestación del servicio de catering durante un evento.
+- **Instalaciones:** Espacios y equipamientos disponibles para la preparación y prestación del servicio.
+- **Menús:** Conjunto de platos y bebidas ofrecidos para un evento.
+- **Platos:** Elaboraciones culinarias individuales que forman parte de un menú.
+- **Postres:** Elaboraciones dulces que se ofrecen al finalizar una comida.
+- **Presupuesto:** Estimación del coste total del servicio de catering solicitado.
+- **Reservas:** Solicitudes confirmadas para contratar un servicio de catering en una fecha determinada.
+- **Servicios:** Prestaciones de catering que la empresa ofrece a sus clientes.
+- **Solicitud:** Petición realizada por un cliente para contratar un servicio de catering.
+- **Usuarios:** Personas que acceden a la aplicación para consultar, solicitar o gestionar servicios de catering.
 
 ## 3. Visión general del sistema
 
