@@ -57,7 +57,7 @@
 
 - **R.G.08. Adaptación a eventos fuera de las instalaciones de Eatsii:** La aplicación permitirá solicitar servicios en otras localizaciones propuestas por el cliente, siempre que sean viables para la empresa.
 
-- - **R.G.08. Gestion de solicitudes por parte del administrador:** La aplicación permitirá al administrador consultar, revisar y confirmar las solicitudes de reserva realizadas por los clientes.
+- **R.G.08. Gestion de solicitudes por parte del administrador:** La aplicación permitirá al administrador consultar, revisar y confirmar las solicitudes de reserva realizadas por los clientes.
 
 ### 3.2. Usuarios del sistema
 En la aplicación se pueden identificar principalmente dos tipos de usuarios:
