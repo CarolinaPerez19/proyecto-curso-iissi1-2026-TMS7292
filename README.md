@@ -106,14 +106,17 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 #### R.F.03.  Gestión e indicación de alérgeno
 
-**Como** 
+**Como** cliente
 
-**quiero** 
+**quiero** seleccionar alergias y/o intolerancias de los asistentes
 
-**para** 
+**para** asegurar que los menús propuestos sean seguros y adaptados.
 
 
-**Prueba de aceptación**
+**Prueba de aceptación** 
+-Verificar que el usuario pueda marcar uno o varios alérgenos del catálogo en su perfil o solicitud.
+-Comprobar que las propuestas gastronómicas muestren advertencias explícitas o alternativas para los alérgenos marcados.
+
 
 
 #### R.F.04. Solicitud de eventos en localizaciones de Eatsii
