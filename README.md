@@ -19,7 +19,7 @@
 
 ## 2. Glosario de términos
 
-- **Administrador:** Son aquellos usuarios miembros de la empresa que revisan y confirman las solicitudes hechas por los clientes.
+- **Administrador:** Usuario miembro de la empresa que revisa y confirma las solicitudes hechas por los clientes.
 - **Alérgenos:** Sustancias presentes en los alimentos que pueden provocar reacciones alérgicas.
 - **Camareros:** Personal encargado de servir la comida y atender a los clientes durante el evento.
 - **Capacidad / Aforo:** Número máximo de personas que pueden asistir a un evento.
