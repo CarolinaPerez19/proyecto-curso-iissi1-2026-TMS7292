@@ -9,7 +9,7 @@
 
 ## 1. Introducción al problema
 
-<dd>&emsp;&emsp;El catering Eatsii desarrolla su actividad en la provincia de Sevilla y tiene su sede en la calle Carmona, 6. Se trata de una empresa de tamaño mediano que, además de ofrecer una amplia propuesta gastronómica especializadas en celebraciones privadas y eventos corporativos, dispone de diferentes espacios habilitados para la celebración de eventos. Asimismo, ofrece la posibilidad de desplazarse a otras localizaciones propuestas por los clientes, siempre que las condiciones del lugar y la organización del evento lo permitan.
+<dd>&emsp;&emsp;El catering Eatsii desarrolla su actividad en la provincia de Sevilla y tiene su sede en la calle Carmona, 6. Se trata de una empresa de tamaño mediano que, además de ofrecer una amplia propuesta gastronómica especializada en celebraciones privadas y eventos corporativos, dispone de diferentes espacios habilitados para la celebración de eventos. Asimismo, ofrece la posibilidad de desplazarse a otras localizaciones propuestas por los clientes, siempre que las condiciones del lugar y la organización del evento lo permitan.
   
 <dd>&emsp;&emsp;Solicita el desarrollo de una aplicación cuya función principal sea conectar a los clientes con los servicios que puede proporcionar su empresa, se amoldarán a las necesidades de cada usuario. Dichos servicios se basarán en los tipos de eventos, presupuestos y alérgenos que cada consumidor precise.
 
@@ -32,7 +32,7 @@
 - **Platos:** Elaboraciones culinarias individuales que forman parte de un menú.
 - **Postres:** Elaboraciones dulces que se ofrecen al finalizar una comida.
 - **Presupuesto:** Estimación del coste total del servicio de catering solicitado.
-- **Reservas:** Solicitudes confirmadas para contratar un servicio de catering en una fecha determinada.
+- **Reservas:** Contratacion confirmada despues de aceptar la solicitud y comprobar la disponibilidad.
 - **Servicios:** Prestaciones de catering que la empresa ofrece a sus clientes.
 - **Solicitud:** Petición realizada por un cliente para contratar un servicio de catering.
 - **Usuarios:** Personas que acceden a la aplicación para consultar, solicitar o gestionar servicios de catering.
@@ -41,7 +41,7 @@
 
 ### 3.1. Requisitos generales
 
-- **R.G.01. Registro e inicio de sesión:** La aplicación permitirá a los usuarios registrarse e iniciar sesión, diferenciando entre usuarios y clientes.
+- **R.G.01. Registro e inicio de sesión:** La aplicación permitirá a los usuarios registrarse e iniciar sesión, diferenciando entre administradores y clientes.
 
 - **R.G.02. Consulta de los servicios disponibles:** La aplicación permitirá consultar las diferentes opciones gastronómicas ofrecidas por la empresa, así como los espacios disponibles para la celebración de eventos.
 
@@ -57,7 +57,7 @@
 
 - **R.G.08. Adaptación a eventos fuera de las instalaciones de Eatsii:** La aplicación permitirá solicitar servicios en otras localizaciones propuestas por el cliente, siempre que sean viables para la empresa.
 
-- **R.G.08. Gestion de solicitudes por parte del administrador:** La aplicación permitirá al administrador consultar, revisar y confirmar las solicitudes de reserva realizadas por los clientes.
+- **R.G.09. Gestion de solicitudes por parte del administrador:** La aplicación permitirá al administrador consultar, revisar y confirmar las solicitudes de reserva realizadas por los clientes.
 
 ### 3.2. Usuarios del sistema
 En la aplicación se pueden identificar principalmente dos tipos de usuarios:
@@ -129,8 +129,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 
 **Prueba de aceptación**
-- Verificar que el cliente pueda elegir una de las opciones disponibles.
-- Comprobar que el lugar ha sido reservado para dicha cita en la fecha seleccionada.
+- Verificar que el cliente pueda elegir uno de los espacios ofrecidos por Eatsii.
+- Comprobar que se consulte la disponibilidad del espacio para la fecha y el horario seleccionados.
+- Comprobar que la solicitud quede registrada y que el espacio solo se reserve cuando se cumplan las condiciones de confirmación.
 
 
 #### R.F.05. Solicitud de eventos en localizaciones externas
