@@ -399,12 +399,95 @@ El sistema deberá comprobar que los datos introducidos por el usuario cumplen c
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
-### 4.3. Requisitos no funcionales (opcional)
+### 4.3. Requisitos no funcionales
 
-**R.N.F. 01. Título requisito no funcional**
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+R.N.F.01. Seguridad y control de acceso
+Como usuario de la aplicación
+quiero que mis datos y mi cuenta estén protegidos mediante mecanismos de seguridad y control de acceso
+para garantizar la privacidad de mi información y evitar accesos no autorizados.
+Pruebas de aceptación
+Verificar que las contraseñas se almacenen de forma segura.
+Comprobar que cada usuario solo pueda acceder a las funcionalidades correspondientes a su rol.
+Verificar que los clientes no puedan consultar ni modificar las solicitudes de otros clientes.
+
+R.N.F.02. Usabilidad de la aplicación
+Como cliente
+quiero disponer de una interfaz sencilla e intuitiva
+para consultar los servicios de catering y solicitar la organización de un evento fácilmente.
+Pruebas de aceptación
+Comprobar que las opciones principales estén claramente identificadas.
+Verificar que los formularios indiquen los campos obligatorios y los posibles errores.
+Comprobar que el proceso de solicitud de un evento pueda realizarse sin instrucciones externas.
+
+
+R.N.F.03. Rendimiento del sistema
+Como usuario de la aplicación
+quiero que las páginas y consultas respondan en un tiempo adecuado
+para consultar los servicios, los espacios y la disponibilidad sin esperas excesivas.
+Pruebas de aceptación
+Verificar que las operaciones habituales respondan rápidamente en condiciones normales de uso.
+Comprobar que las búsquedas y los filtros de servicios funcionen sin bloqueos.
+Verificar que el sistema mantenga un rendimiento adecuado cuando varios usuarios lo utilicen simultáneamente.
+
+R.N.F.04. Disponibilidad del sistema
+Como cliente
+quiero poder acceder a la aplicación cuando necesite consultar los servicios de Eatsii
+para planificar y solicitar eventos con antelación.
+Pruebas de aceptación
+Comprobar que la aplicación esté disponible durante los periodos de funcionamiento establecidos.
+Verificar que los errores o interrupciones se comuniquen al usuario de forma comprensible.
+Comprobar que, tras una interrupción, el sistema pueda recuperar su funcionamiento sin perder los datos confirmados.
+
+
+R.N.F.05. Compatibilidad y diseño adaptable
+Como cliente
+quiero utilizar la aplicación desde diferentes dispositivos y navegadores
+para consultar los servicios y gestionar mis solicitudes desde el dispositivo que prefiera.
+Pruebas de aceptación
+Verificar que la aplicación funcione correctamente en los principales navegadores actuales.
+Comprobar que la interfaz se adapte a ordenadores, tabletas y teléfonos móviles.
+Verificar que los formularios y las opciones principales puedan utilizarse en diferentes tamaños de pantalla.
+
+
+R.N.F.06. Integridad y consistencia de los datos
+Como administrador de Eatsii
+quiero que la información almacenada se mantenga íntegra y coherente
+para evitar errores en las solicitudes, los presupuestos, las reservas y la disponibilidad de los espacios.
+Pruebas de aceptación
+Comprobar que los datos obligatorios se validen antes de almacenarse.
+Verificar que los importes de los presupuestos coincidan con la suma de sus conceptos y ajustes.
+Comprobar que no se confirmen reservas incompatibles para un mismo espacio y horario.
+
+
+R.N.F.07. Mantenibilidad del sistema
+Como administrador de Eatsii
+quiero que la aplicación esté organizada y documentada de forma clara
+para facilitar futuras modificaciones, correcciones y ampliaciones del sistema.
+Pruebas de aceptación
+Comprobar que las funcionalidades principales dispongan de documentación suficiente.
+Verificar que se puedan realizar modificaciones sin afectar innecesariamente al resto de funcionalidades.
+
+
+
+R.N.F.08. Protección de la información personal
+Como cliente
+quiero que mis datos personales y la información de mis solicitudes se traten de forma confidencial
+para evitar que mi información sea utilizada o consultada por personas no autorizadas.
+Pruebas de aceptación
+Verificar que solo se recopilen los datos necesarios para prestar el servicio.
+Comprobar que el acceso a la información personal esté restringido según los permisos establecidos.
+Verificar que los datos se transmitan mediante conexiones seguras.
+
+
+R.N.F.09. Fiabilidad de la información sobre alérgenos
+Como cliente
+quiero que la información sobre los alérgenos presentes en los servicios gastronómicos sea clara y esté actualizada
+para poder tener en cuenta mis alergias e intolerancias al seleccionar las opciones de catering.
+Pruebas de aceptación
+Comprobar que los servicios dispongan de información sobre los alérgenos registrados.
+Verificar que los cambios realizados por los administradores se reflejen en la información consultada.
+Comprobar que a la aplicación no le falte la información sobre un alérgeno como garantía de que un servicio sea seguro.
+
 
 -- fin entregable 1 --
 
