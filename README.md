@@ -399,7 +399,6 @@ El sistema deberá comprobar que los datos introducidos por el usuario cumplen c
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
-### 4.2. Mapa de historias de usuario (opcional)
 
 ### 4.3. Requisitos no funcionales
 
