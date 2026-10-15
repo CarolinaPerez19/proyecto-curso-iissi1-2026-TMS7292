@@ -165,7 +165,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 #### 4.1.1. Requisitos de información
 
-##### R.I.01. Información de los usuarios
+#### R.I.01. Información de los usuarios
 
 **Como** administrador
 
@@ -180,7 +180,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Las contraseñas se almacenarán de forma segura y deberán cumplir unos criterios.
 
 
-##### R.I.02. Información de los servicios
+#### R.I.02. Información de los servicios
 
 **Como** administrador
 
@@ -196,7 +196,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se podrá consultar la información gastronómica y las características.
 
 
-##### R.I.03. Información de los espacios 
+#### R.I.03. Información de los espacios 
 
 **Como** administrador 
 
@@ -212,7 +212,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se podrá consultar si el espacio está fuera de servicio.
 
 
-##### R.I.04. Información de los tipos de evento
+#### R.I.04. Información de los tipos de evento
 
 **Como** administrador
 
@@ -227,7 +227,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Los tipos de evento podrán consultarse al crear una solicitud.
 
 
-##### R.I.05. Información de las solicitudes 
+#### R.I.05. Información de las solicitudes 
 
 **Como** cliente 
 
@@ -244,7 +244,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - No se permitirá registrar solicitudes sin los datos obligatorios.
 
 
-##### R.I.06. Información de alergias e intolerancias 
+#### R.I.06. Información de alergias e intolerancias 
 
 **Como** cliente
 
@@ -260,7 +260,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se podrá consultar qué alergias e intolerancias se han indicado para cada solicitud.
 
 
-##### R.I.07. Información de presupuestos 
+#### R.I.07. Información de presupuestos 
 
 **Como** cliente
 
@@ -275,7 +275,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - El importe total coincidirá con la suma de los conceptos y ajustes aplicables.
 
 
-##### R.I.08. Información de reservas y disponibilidad 
+#### R.I.08. Información de reservas y disponibilidad 
 
 **Como** administrador
 
@@ -292,7 +292,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se podrá consultar la disponibilidad de los espacios para una fecha y un horario determinados
 
 
-##### R.I.09. Información de los alérgenos presentes en los servicios 
+#### R.I.09. Información de los alérgenos presentes en los servicios 
 
 **Como** administrador 
 
@@ -308,7 +308,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se podrá consultar qué alérgenos están asociados a cada servicio.
 
 
-##### R.I.10. Información de las notificaciones
+#### R.I.10. Información de las notificaciones
 
 **Como** usuario
 
@@ -324,7 +324,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Cada usuario solo podrá consultar sus propias notificaciones.
 
 
-##### R.I.11.  Información de las ubicaciones externas 
+#### R.I.11.  Información de las ubicaciones externas 
 
 **Como** administrador 
 
@@ -343,64 +343,64 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 #### 4.1.2. Reglas de negocio
 
-##### R.N.01. Capacidad de los espacios
+#### R.N.01. Capacidad de los espacios
 
 El número de asistentes de un evento celebrado en un espacio de Eatsii no podrá superar la capacidad máxima establecida para dicho espacio.
 
-##### R.N.02. Disponibilidad de los espacios
+#### R.N.02. Disponibilidad de los espacios
 
 Un mismo espacio no podrá tener dos reservas confirmadas cuyos horarios se solapen.
 
-##### R.N.03. Control de alergias e intolerancias
+#### R.N.03. Control de alergias e intolerancias
 
 Las propuestas gastronómicas deberán tener en cuenta las alergias e intolerancias indicadas por el cliente. Los servicios identificados como incompatibles deberán excluirse de las propuestas automáticas. La falta de información sobre un alérgeno no podrá interpretarse como garantía de que el servicio sea seguro.
 
-##### R.N.04. Viabilidad de las ubicaciones externas
+#### R.N.04. Viabilidad de las ubicaciones externas
 
 Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuando un administrador haya evaluado y aprobado la viabilidad del desplazamiento y de la prestación del servicio.
 
-##### R.N.05. Coherencia de los presupuestos
+#### R.N.05. Coherencia de los presupuestos
 
 El importe total de un presupuesto deberá coincidir con la suma de los importes de los servicios incluidos y los costes adicionales o ajustes que correspondan.
 
-##### R.N.06. Correspondencia entre solicitudes y reservas
+#### R.N.06. Correspondencia entre solicitudes y reservas
 
 Toda reserva confirmada deberá estar vinculada a una solicitud válida y aceptada. Antes de confirmar una reserva, se deberá comprobar la disponibilidad de los espacios y recursos necesarios.
 
-##### R.N.07. Estados de las solicitudes
+#### R.N.07. Estados de las solicitudes
 
 Las solicitudes solo podrán encontrarse en uno de los siguientes estados: pendiente, en revisión, aceptada o  rechazada.
 
-##### R.N.08. Control de permisos
+#### R.N.08. Control de permisos
 
 Únicamente los usuarios con rol de administrador podrán crear, modificar o desactivar servicios y espacios, gestionar el catálogo y resolver las solicitudes de los clientes.
 
-##### R.N.09. Número de asistentes
+#### R.N.09. Número de asistentes
 
 Toda solicitud deberá indicar un número de asistentes entero y mayor que cero.
 
-##### R.N.10. Validez de las fechas y horarios
+#### R.N.10. Validez de las fechas y horarios
 
 La fecha de un nuevo evento no podrá ser anterior a la fecha actual en el momento de registrar la solicitud. Cuando se indiquen las horas de inicio y finalización, la hora de finalización deberá ser posterior a la de inicio.
 
-##### R.N.11. Integridad de los servicios solicitados
+#### R.N.11. Integridad de los servicios solicitados
 
 Los servicios incluidos en una solicitud deberán tener cantidades válidas y precios unitarios no negativos. 
 
-##### R.N.12. Privacidad de las solicitudes
+#### R.N.12. Privacidad de las solicitudes
 
 Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea titular. Los administradores podrán acceder a la información necesaria para realizar sus funciones.
 
-##### R.N.13. Validación y verificación de los datos del usuario
+#### R.N.13. Validación y verificación de los datos del usuario
 
 El sistema deberá comprobar que los datos introducidos por el usuario cumplen con el formato establecido y verificar el correo electrónico.
 
 
 
-### 4.2. Mapa de historias de usuario (opcional)
+#### 4.2. Mapa de historias de usuario (opcional)
 
 
-### 4.3. Requisitos no funcionales
+#### 4.3. Requisitos no funcionales
 
 #### R.N.F.01. Seguridad y control de acceso
 **Como** usuario de la aplicación
