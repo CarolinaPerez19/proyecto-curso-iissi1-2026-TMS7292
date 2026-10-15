@@ -484,7 +484,7 @@ El sistema deberá comprobar que los datos introducidos por el usuario cumplen c
 - Comprobar que no se confirmen reservas incompatibles para un mismo espacio y horario.
 
 
-##### R.N.F.07. Mantenibilidad del sistema
+#### R.N.F.07. Mantenibilidad del sistema
 
 **Como** administrador de Eatsii
 
@@ -498,7 +498,7 @@ El sistema deberá comprobar que los datos introducidos por el usuario cumplen c
 
 
 
-##### R.N.F.08. Protección de la información personal
+#### R.N.F.08. Protección de la información personal
 
 **Como** cliente
 
@@ -512,7 +512,7 @@ El sistema deberá comprobar que los datos introducidos por el usuario cumplen c
 - Verificar que los datos se transmitan mediante conexiones seguras.
 
 
-##### R.N.F.09. Fiabilidad de la información sobre alérgenos
+#### R.N.F.09. Fiabilidad de la información sobre alérgenos
 
 **Como** cliente
 
