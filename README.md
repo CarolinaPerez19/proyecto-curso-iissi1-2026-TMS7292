@@ -460,9 +460,13 @@ Comprobar que no se confirmen reservas incompatibles para un mismo espacio y hor
 
 
 ##### R.N.F.07. Mantenibilidad del sistema
+
 **Como** administrador de Eatsii
+
 **quiero** que la aplicación esté organizada y documentada de forma clara
+
 **para** facilitar futuras modificaciones, correcciones y ampliaciones del sistema.
+
 **Pruebas de aceptación**
 - Comprobar que las funcionalidades principales dispongan de documentación suficiente.
 - Verificar que se puedan realizar modificaciones sin afectar innecesariamente al resto de funcionalidades.
@@ -470,9 +474,13 @@ Comprobar que no se confirmen reservas incompatibles para un mismo espacio y hor
 
 
 ##### R.N.F.08. Protección de la información personal
+
 **Como** cliente
+
 **quiero** que mis datos personales y la información de mis solicitudes se traten de forma confidencial
+
 **para** evitar que mi información sea utilizada o consultada por personas no autorizadas.
+
 **Pruebas de aceptación**
 - Verificar que solo se recopilen los datos necesarios para prestar el servicio.
 - Comprobar que el acceso a la información personal esté restringido según los permisos establecidos.
@@ -480,9 +488,13 @@ Comprobar que no se confirmen reservas incompatibles para un mismo espacio y hor
 
 
 ##### R.N.F.09. Fiabilidad de la información sobre alérgenos
+
 **Como** cliente
+
 **quiero** que la información sobre los alérgenos presentes en los servicios gastronómicos sea clara y esté actualizada
+
 **para** poder tener en cuenta mis alergias e intolerancias al seleccionar las opciones de catering.
+
 **Pruebas de aceptación**
 - Comprobar que los servicios dispongan de información sobre los alérgenos registrados.
 - Verificar que los cambios realizados por los administradores se reflejen en la información consultada.
