@@ -163,7 +163,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 
 
-#### 4.1.1. Requisitos de información
+### 4.1.1. Requisitos de información
 
 #### R.I.01. Información de los usuarios
 
@@ -341,7 +341,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 
 
-#### 4.1.2. Reglas de negocio
+### 4.1.2. Reglas de negocio
 
 #### R.N.01. Capacidad de los espacios
 
@@ -397,10 +397,10 @@ El sistema deberá comprobar que los datos introducidos por el usuario cumplen c
 
 
 
-#### 4.2. Mapa de historias de usuario (opcional)
+### 4.2. Mapa de historias de usuario (opcional)
 
 
-#### 4.3. Requisitos no funcionales
+### 4.3. Requisitos no funcionales
 
 #### R.N.F.01. Seguridad y control de acceso
 **Como** usuario de la aplicación
