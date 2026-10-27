@@ -21,16 +21,13 @@
 
 - **Administrador:** Usuario miembro de la empresa que revisa y confirma las solicitudes hechas por los clientes.
 - **Alérgenos:** Sustancias presentes en los alimentos que pueden provocar reacciones alérgicas.
-- **Camareros:** Personal encargado de servir la comida y atender a los clientes durante el evento.
 - **Capacidad / Aforo:** Número máximo de personas que pueden asistir a un evento.
 - **Cliente:** Son los usuarios que solicitan los servicios de catering.
-- **Cocineros:** Personal responsable de preparar y elaborar los platos del menú.
 - **Contaminación cruzada:** Transferencia accidental de alérgenos o contaminantes entre alimentos, utensilios o superficies.
 - **Duración:** Tiempo estimado de prestación del servicio de catering durante un evento.
 - **Instalaciones:** Espacios y equipamientos disponibles para la preparación y prestación del servicio.
 - **Menús:** Conjunto de platos y bebidas ofrecidos para un evento.
 - **Platos:** Elaboraciones culinarias individuales que forman parte de un menú.
-- **Postres:** Elaboraciones dulces que se ofrecen al finalizar una comida.
 - **Presupuesto:** Estimación del coste total del servicio de catering solicitado.
 - **Reservas:** Contratacion confirmada despues de aceptar la solicitud y comprobar la disponibilidad.
 - **Servicios:** Prestaciones de catering que la empresa ofrece a sus clientes.
@@ -41,23 +38,12 @@
 
 ### 3.1. Requisitos generales
 
-- **R.G.01. Registro e inicio de sesión:** La aplicación permitirá a los usuarios registrarse e iniciar sesión, diferenciando entre administradores y clientes.
+- **R.G.01. Gestión de usuarios y acceso al sistema:** La aplicación permitirá el acceso a los usuarios según su perfil, diferenciando entre clientes y administradores de la empresa.
 
-- **R.G.02. Consulta de los servicios disponibles:** La aplicación permitirá consultar las diferentes opciones gastronómicas ofrecidas por la empresa, así como los espacios disponibles para la celebración de eventos.
+- **R.G.02. Gestión de la oferta de servicios:** La aplicación permitirá gestionar y consultar la información relativa a los servicios de catering, las propuestas gastronómicas y los espacios ofrecidos por Eatsii.
 
-- **R.G.03. Selección del tipo de evento:** La aplicación permitirá seleccionar el tipo de evento que se desea organizar.
+- **R.G.03. Gestión de eventos y solicitudes:** La aplicación permitirá a los cliente elegir el tipo de evento acorde a  sus necesidades y gestionar las solicitudes de contratación de los servicios de la empresa.
 
-- **R.G.04. Indicación del presupuesto disponible:** La aplicación permitirá indicar el presupuesto disponible para el evento, teniendo en cuenta las opciones elegidas por el usuario.
-
-- **R.G.05. Información sobre alergias e intolerancias alimentarias:** La aplicación permitirá al cliente indicar las alergias e intolerancias alimentarias que deban tenerse en cuenta en la elaboración del menú.
-
-- **R.G.06. Consulta de la disponibilidad:** La aplicación permitirá consultar la disponibilidad de los espacios y servicios para la fecha seleccionada.
-
-- **R.G.07. Información detallada de cada servicio:** La aplicación proporcionará información sobre las características y condiciones de cada servicio ofrecido por la empresa.
-
-- **R.G.08. Adaptación a eventos fuera de las instalaciones de Eatsii:** La aplicación permitirá solicitar servicios en otras localizaciones propuestas por el cliente, siempre que sean viables para la empresa.
-
-- **R.G.09. Gestion de solicitudes por parte del administrador:** La aplicación permitirá al administrador consultar, revisar y confirmar las solicitudes de reserva realizadas por los clientes.
 
 ### 3.2. Usuarios del sistema
 En la aplicación se pueden identificar principalmente dos tipos de usuarios:
@@ -162,6 +148,45 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Comprobar que el administrador pueda cambiar el estado a "Aprobado" o "Rechazado", añadiendo comentarios explicativos para el cliente.
 
 
+#### R.F.07. Registro e inicio de sesión de usuarios
+
+**Como** cliente, 
+
+**quiero** poder registrarme e iniciar sesión en la plataforma 
+
+**para** gestionar mis reservas de forma personalizada y guardar mis preferencias de eventos.
+
+
+**Prueba de aceptación**
+- Verificar que no existe usuario con el mismo correo electrónico.
+- Comprobar que la contraseña es correcta a la hora de iniciar sesión. 
+
+
+#### R.F.08. Consulta de servicios disponibles
+
+**Como** cliente, 
+
+**quiero** consultar el catálogo de servicios disponibles (opciones gastronómicas y espacios) 
+
+**para** explorar la oferta de Eatsii y evaluar las alternativas para mi evento.
+
+
+**Prueba de aceptación**
+- Comprobar que el sistema muestra la lista completa de espacios físicos y menús / servicios gastronómicos con sus descripciones.
+
+
+#### R.F.09. Selección del tipo de evento
+
+**Como** cliente, 
+
+**quiero** consultar la disponibilidad de los espacios y servicios para la fecha específica
+
+**para** asegurarme de que el lugar y el catering estén libres antes de continuar con la reserva.
+
+
+**Prueba de aceptación**
+- Verificar que la fecha y hora y los servicios están disponibles.
+  
 
 ### 4.1.1. Requisitos de información
 
