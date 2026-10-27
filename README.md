@@ -146,46 +146,6 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 **Prueba de aceptación**
 - Verificar que el administrador pueda ver el listado de solicitudes externas pendientes.
 - Comprobar que el administrador pueda cambiar el estado a "Aprobado" o "Rechazado", añadiendo comentarios explicativos para el cliente.
-
-
-#### R.F.07. Registro e inicio de sesión de usuarios
-
-**Como** cliente, 
-
-**quiero** poder registrarme e iniciar sesión en la plataforma 
-
-**para** gestionar mis reservas de forma personalizada y guardar mis preferencias de eventos.
-
-
-**Prueba de aceptación**
-- Verificar que no existe usuario con el mismo correo electrónico.
-- Comprobar que la contraseña es correcta a la hora de iniciar sesión. 
-
-
-#### R.F.08. Consulta de servicios disponibles
-
-**Como** cliente, 
-
-**quiero** consultar el catálogo de servicios disponibles (opciones gastronómicas y espacios) 
-
-**para** explorar la oferta de Eatsii y evaluar las alternativas para mi evento.
-
-
-**Prueba de aceptación**
-- Comprobar que el sistema muestra la lista completa de espacios físicos y menús / servicios gastronómicos con sus descripciones.
-
-
-#### R.F.09. Selección del tipo de evento
-
-**Como** cliente, 
-
-**quiero** consultar la disponibilidad de los espacios y servicios para la fecha específica
-
-**para** asegurarme de que el lugar y el catering estén libres antes de continuar con la reserva.
-
-
-**Prueba de aceptación**
-- Verificar que la fecha y hora y los servicios están disponibles.
   
 
 ### 4.1.1. Requisitos de información
