@@ -70,7 +70,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Prueba de aceptación**
 
-- Verificar que el usuario pueda registrarse proporcionando datos válidos (nombre, email, contraseña, teléfono).
+- Verificar que el usuario pueda registrarse proporcionando datos válidos.
 
 - Comprobar que el usuario no pueda iniciar sesión si las credenciales son erróneas.
 
@@ -146,7 +146,63 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 **Prueba de aceptación**
 - Verificar que el administrador pueda ver el listado de solicitudes externas pendientes.
 - Comprobar que el administrador pueda cambiar el estado a "Aprobado" o "Rechazado", añadiendo comentarios explicativos para el cliente.
-  
+
+#### R.F.07.   Gestión del catálogo de servicios, espacios y alérgenos
+
+**Como** administrador de Eatsii
+
+**quiero** dar de alta, modificar y desactiva servicios, espacions, tipos de enventos y alérgenos
+
+**para** mantener actualizada la oferta gastrómica y la disponibilidad de las instalaciones.
+
+
+**Prueba de aceptación**
+- Verificar que el administrador pueda crear, editar y modificar la disponibilidad de los servicios y espacios de Eatsii.
+- Comprobar que se puedan asociar y actualizar los alérgenos presentes en cada servicio gastronómico.
+- Comprobar que el sistema impida registrar dos tipos de evento con el mismo nombre.
+- Verificar que el número máximo de aforo indicado para un espacio sea un valor mayor que cero.
+
+#### R.F.08.   Consulta del historial y estado de solicitudes
+
+**Como** cliente
+
+**quiero** acceder al listado de mis solicitudes enviadas
+
+**para** conocer el estado actual de la tramitación de mi evento.
+
+
+**Prueba de aceptación**
+- Verificar que el cliente solo pueda acceder y consultar las solicitudes de las cuales sea titular.
+- Comprobar que se muestre el estado de la solicitud (pendiente, en revisión, aceptada o rechazada).
+- Verificar que el cliente pueda consultar los detalles completos de la solicitud (fecha, hora, número de asistentes, localización y alérgenos indicados).
+
+#### R.F.09.   Generación y consulta de presupuestos
+
+**Como** cliente/administrador
+
+**quiero** visualizar el presupuesto desglosado asociado a una solicitud
+
+**para** conocer elmimporte total.
+
+
+**Prueba de aceptación**
+-Comprobar que el sistema/administrador genere un presupuesto vinculado a una solicitud existente
+-Comprobar que el cliente pueda consultar el presupuesto detallado correspondiente a su solicitud.
+
+#### R.F.10.   Centro de notificaciones
+
+**Como** usuario
+
+**quiero** recibir y consultar las notificaciones en la plataforma
+
+**para** mantenerme informado sobre las actualizaciones y cambios de estado de mis solicitudes y reservas.
+
+
+**Prueba de aceptación**
+-Verificar que cada notificación esté vinculada al usuario destinatario y guarde la fecha de creación.
+- Comprobar que cada usuario únicamente pueda consultar sus propias notificaciones.
+- Verificar que las notificaciones muestren información clara sobre el cambio de estado de la solicitud o reserva asociada.
+
 
 ### 4.1.1. Requisitos de información
 
@@ -334,7 +390,7 @@ El número de asistentes de un evento celebrado en un espacio de Eatsii no podr�
 
 #### R.N.02. Disponibilidad de los espacios
 
-Un mismo espacio no podrá tener dos reservas confirmadas cuyos horarios se solapen.
+Un mismo espacio no podrá tener dos reservas confirmadas cuyas horas y fechas se solapen.
 
 #### R.N.03. Control de alergias e intolerancias
 
