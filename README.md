@@ -151,15 +151,15 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Como** administrador de Eatsii
 
-**quiero** dar de alta, modificar y desactiva servicios, espacions, tipos de enventos y alérgenos
+**quiero** dar de alta, modificar y desactivar servicios, espacios, tipos de eventos y alérgenos
 
-**para** mantener actualizada la oferta gastrómica y la disponibilidad de las instalaciones.
+**para** mantener actualizada la oferta gastronómica y la disponibilidad de las instalaciones.
 
 
 **Prueba de aceptación**
 - Verificar que el administrador pueda crear, editar y modificar la disponibilidad de los servicios y espacios de Eatsii.
 - Comprobar que se puedan asociar y actualizar los alérgenos presentes en cada servicio gastronómico.
-- Comprobar que el sistema impida registrar dos tipos de evento con el mismo nombre.
+- Comprobar que el sistema impida registrar dos tipos de eventos con el mismo nombre.
 - Verificar que el número máximo de aforo indicado para un espacio sea un valor mayor que cero.
 
 #### R.F.08.   Consulta del historial y estado de solicitudes
@@ -384,55 +384,47 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 ### 4.1.2. Reglas de negocio
 
-#### R.N.01. Capacidad de los espacios
-
-El número de asistentes de un evento celebrado en un espacio de Eatsii no podrá superar la capacidad máxima establecida para dicho espacio.
-
-#### R.N.02. Validación de capacidad de espacio al confirmar reserva 
+#### R.N.01. Validación de capacidad de espacio al confirmar reserva 
 
 Antes de confirmar una nueva reserva  vinculada a un espacio de Eatsii, el sistema deberá comprobar que el número de asistentes indicado en la solicitud asociada no supere el aforo registrado en dicho espacio. Si lo supera, se cancelará la operación. 
 
-#### R.N.03. Control de alergias e intolerancias
+#### R.N.02. Control de alergias e intolerancias
 
 Las propuestas gastronómicas deberán tener en cuenta las alergias e intolerancias indicadas por el cliente. Los servicios identificados como incompatibles deberán excluirse de las propuestas automáticas. La falta de información sobre un alérgeno no podrá interpretarse como garantía de que el servicio sea seguro.
 
-#### R.N.04. Viabilidad de las ubicaciones externas
+#### R.N.03. Viabilidad de las ubicaciones externas
 
 Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuando un administrador haya evaluado y aprobado la viabilidad del desplazamiento y de la prestación del servicio.
 
-#### R.N.05. Coherencia de los presupuestos
+#### R.N.04. Coherencia de los presupuestos
 
 El importe total de un presupuesto deberá coincidir con la suma de los importes de los servicios incluidos y los costes adicionales o ajustes que correspondan.
 
-#### R.N.06. Correspondencia entre solicitudes y reservas
+#### R.N.05. Correspondencia entre solicitudes y reservas
 
 Toda reserva confirmada deberá estar vinculada a una solicitud válida y aceptada. Antes de confirmar una reserva, se deberá comprobar la disponibilidad de los espacios y recursos necesarios.
 
-#### R.N.07. Estados de las solicitudes
+#### R.N.06. Estados de las solicitudes
 
 Las solicitudes solo podrán encontrarse en uno de los siguientes estados: pendiente, en revisión, aceptada o  rechazada.
 
-#### R.N.08. Control de permisos
+#### R.N.07. Control de permisos
 
 Únicamente los usuarios con rol de administrador podrán crear, modificar o desactivar servicios y espacios, gestionar el catálogo y resolver las solicitudes de los clientes.
 
-#### R.N.09. Número de asistentes
+#### R.N.08. Número de asistentes
 
 Toda solicitud deberá indicar un número de asistentes entero y mayor que cero.
 
-#### R.N.10. Validez de las fechas y horarios
+#### R.N.09. Validez de las fechas y horarios
 
 La fecha de un nuevo evento no podrá ser anterior a la fecha actual en el momento de registrar la solicitud. Cuando se indiquen las horas de inicio y finalización, la hora de finalización deberá ser posterior a la de inicio.
 
-#### R.N.11. Integridad de los servicios solicitados
-
-Los servicios incluidos en una solicitud deberán tener cantidades válidas y precios unitarios no negativos. 
-
-#### R.N.12. Privacidad de las solicitudes
+#### R.N.10. Privacidad de las solicitudes
 
 Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea titular. Los administradores podrán acceder a la información necesaria para realizar sus funciones.
 
-#### R.N.13. Validación y verificación de los datos del usuario
+#### R.N.11. Validación y verificación de los datos del usuario
 
 El sistema deberá comprobar que los datos introducidos por el usuario cumplen con el formato establecido y verificar el correo electrónico.
 
