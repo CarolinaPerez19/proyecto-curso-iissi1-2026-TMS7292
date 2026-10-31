@@ -388,9 +388,9 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 El número de asistentes de un evento celebrado en un espacio de Eatsii no podrá superar la capacidad máxima establecida para dicho espacio.
 
-#### R.N.02. Disponibilidad de los espacios
+#### R.N.02. Validación de capacidad de espacio al confirmar reserva 
 
-Un mismo espacio no podrá tener dos reservas confirmadas cuyas horas y fechas se solapen.
+Antes de confirmar una nueva reserva  vinculada a un espacio de Eatsii, el sistema deberá comprobar que el número de asistentes indicado en la solicitud asociada no supere el aforo registrado en dicho espacio. Si lo supera, se cancelará la operación. 
 
 #### R.N.03. Control de alergias e intolerancias
 
