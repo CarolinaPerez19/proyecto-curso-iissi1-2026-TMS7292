@@ -350,23 +350,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se podrá consultar qué alérgenos están asociados a cada servicio.
 
 
-#### R.I.10. Información de las notificaciones
-
-**Como** usuario
-
-**quiero** que se almacenen las notificaciones recibidas 
-
-**para** consultar los cambios relevantes relacionados con mis solicitudes.
-
-**Prueba de aceptación**
-- Cada notificación tendrá un identificador único.
-- Cada notificación estará asociada a un usuario destinatario.
-- Se registrarán el mensaje y la fecha de creación.
-- Las notificaciones relacionadas con solicitudes estarán vinculadas a la solicitud correspondiente.
-- Cada usuario solo podrá consultar sus propias notificaciones.
-
-
-#### R.I.11.  Información de las ubicaciones externas 
+#### R.I.10.  Información de las ubicaciones externas 
 
 **Como** administrador 
 
