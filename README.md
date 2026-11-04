@@ -552,7 +552,7 @@ Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea ti
 
 ### 5.2. Escenarios de prueba
 
-### ESC-01. Reserva válida con aforo completo y presupuesto
+#### ESC-01. Reserva válida con aforo completo y presupuesto
 
 **Reglas:** R.N.01, R.N.04, R.N.05, R.N.06
 
@@ -571,7 +571,7 @@ Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea ti
 El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce después los comensales a 60, el presupuesto se recalcula a 500 + 40 × 60 = **2.900 €**.
 
 
-### ESC-02. Aforo superado
+#### ESC-02. Aforo superado
 
 **Reglas:** R.N.01
 
@@ -588,7 +588,7 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 **Resultado esperado.** El sistema no permite la confirmación y muestra un mensaje de error, porque los 51 comensales superan el aforo de 50. La reserva no pasa a `aceptada` y se rechaza, de modo que el salón sigue libre para otras solicitudes. Si marco corrigiera la solicitud a 50 comensales, sí podría confirmarse.
 
 
-### ESC-03. Datos de la solicitud no válidos
+#### ESC-03. Datos de la solicitud no válidos
 
 **Reglas:** R.N.05, R.N.06
 
@@ -605,7 +605,7 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 **Resultado esperado.** Las tres solicitudes se rechazan con un mensaje de error y no se guardan. Las dos primeras incumplen R.N.05, porque el número de comensales debe ser un entero mayor que cero. La tercera incumple R.N.06, porque la fecha es anterior a la actual. En cambio, una solicitud con 1 comensal y fecha del 04/11/2026 sí se registraría, ya que son los valores límite válidos.
 
 
-### ESC-04. Ingredientes prohibidos en la propuesta de menús
+#### ESC-04. Ingredientes prohibidos en la propuesta de menús
 
 **Reglas:** R.N.02
 
@@ -622,7 +622,7 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 **Resultado esperado.** El sistema solo propone menuMed. Los menús menuMarisco y menuGourmet quedan excluidos de las propuestas automáticas, porque cada uno contiene un plato con alguno de los ingredientes prohibidos. Si carmen marcara solo *crustáceos*, se propondrían menuMed y menuGourmet. Los menús propuestos son únicamente los que tienen sus ingredientes registrados y ninguno de ellos prohibido, ya que la falta de información nunca se considera una garantía de seguridad.
 
 
-### ESC-05. Ubicaciones externas: viabilidad aprobada y rechazada
+#### ESC-05. Ubicaciones externas: viabilidad aprobada y rechazada
 
 **Reglas:** R.N.03
 
