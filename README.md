@@ -186,8 +186,8 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 
 **Prueba de aceptación**
--Comprobar que el sistema/administrador genere un presupuesto vinculado a una solicitud existente
--Comprobar que el cliente pueda consultar el presupuesto detallado correspondiente a su solicitud.
+- Comprobar que el sistema/administrador genere un presupuesto vinculado a una solicitud existente
+- Comprobar que el cliente pueda consultar el presupuesto detallado correspondiente a su solicitud.
 
 #### R.F.10.   Centro de notificaciones
 
@@ -199,7 +199,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 
 **Prueba de aceptación**
--Verificar que cada notificación esté vinculada al usuario destinatario y guarde la fecha de creación.
+- Verificar que cada notificación esté vinculada al usuario destinatario y guarde la fecha de creación.
 - Comprobar que cada usuario únicamente pueda consultar sus propias notificaciones.
 - Verificar que las notificaciones muestren información clara sobre el cambio de estado de la solicitud o reserva asociada.
 
