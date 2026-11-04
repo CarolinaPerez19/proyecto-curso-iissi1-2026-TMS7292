@@ -322,7 +322,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **quiero** almacenar las reservas confirmadas
 
-**para** controlar la ocupación de los espacios y evitar incompatibilidades de fechas y horarios.
+**para** controlar la ocupación de los espacios y evitar incompatibilidades de fechas y horarios. Las reservas solo podrán encontrarse en uno de los siguientes estados: pendiente, en revisión, aceptada o  rechazada.
 
 **Prueba de aceptación**
 - Cada reserva tendrá un identificador único.
@@ -400,13 +400,6 @@ Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuand
 
 El importe total de un presupuesto deberá coincidir con la suma de los importes de los servicios incluidos y los costes adicionales o ajustes que correspondan.
 
-#### R.N.05. Correspondencia entre solicitudes y reservas
-
-Toda reserva confirmada deberá estar vinculada a una solicitud válida y aceptada. Antes de confirmar una reserva, se deberá comprobar la disponibilidad de los espacios y recursos necesarios.
-
-#### R.N.06. Estados de las solicitudes
-
-Las solicitudes solo podrán encontrarse en uno de los siguientes estados: pendiente, en revisión, aceptada o  rechazada.
 
 #### R.N.07. Control de permisos
 
