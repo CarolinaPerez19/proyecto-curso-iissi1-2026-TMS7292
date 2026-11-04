@@ -219,6 +219,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se registrarán el nombre, los apellidos, el correo electrónico y la contraseña del usuario.
 - Cada cuenta tendrá asignado un rol, que podrá ser cliente o administrador.
 - Las contraseñas se almacenarán de forma segura y deberán cumplir unos criterios.
+- La contraseña debera tener más de ocho caracteres.
 
 
 #### R.I.02. Información de los servicios
@@ -400,26 +401,17 @@ Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuand
 
 El importe total de un presupuesto deberá coincidir con la suma de los importes de la localidad y el menu por la cantidad de comensales.
 
-
-#### R.N.07. Control de permisos
-
-Únicamente los usuarios con rol de administrador podrán crear, modificar o desactivar servicios y espacios, gestionar el catálogo y resolver las solicitudes de los clientes.
-
-#### R.N.08. Número de asistentes
+#### R.N.05. Número de asistentes
 
 Toda solicitud deberá indicar un número de asistentes entero y mayor que cero.
 
-#### R.N.09. Validez de las fechas y horarios
+#### R.N.06. Validez de las fechas y horarios
 
 La fecha de un nuevo evento no podrá ser anterior a la fecha actual en el momento de registrar la solicitud. Cuando se indiquen las horas de inicio y finalización, la hora de finalización deberá ser posterior a la de inicio.
 
-#### R.N.10. Privacidad de las solicitudes
+#### R.N.07. Privacidad de las reservas
 
 Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea titular. Los administradores podrán acceder a la información necesaria para realizar sus funciones.
-
-#### R.N.11. Validación y verificación de los datos del usuario
-
-El sistema deberá comprobar que los datos introducidos por el usuario cumplen con el formato establecido y verificar el correo electrónico.
 
 
 
