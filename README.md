@@ -189,20 +189,6 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Comprobar que el sistema/administrador genere un presupuesto vinculado a una solicitud existente
 - Comprobar que el cliente pueda consultar el presupuesto detallado correspondiente a su solicitud.
 
-#### R.F.10.   Centro de notificaciones
-
-**Como** usuario
-
-**quiero** recibir y consultar las notificaciones en la plataforma
-
-**para** mantenerme informado sobre las actualizaciones y cambios de estado de mis solicitudes y reservas.
-
-
-**Prueba de aceptación**
-- Verificar que cada notificación esté vinculada al usuario destinatario y guarde la fecha de creación.
-- Comprobar que cada usuario únicamente pueda consultar sus propias notificaciones.
-- Verificar que las notificaciones muestren información clara sobre el cambio de estado de la solicitud o reserva asociada.
-
 
 ### 4.1.1. Requisitos de información
 
@@ -269,21 +255,21 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Los tipos de evento podrán consultarse al crear una solicitud.
 
 
-#### R.I.05. Información de las solicitudes 
+#### R.I.05. Información de las reserva 
 
 **Como** cliente 
 
-**quiero** que se almacenen los datos de mi solicitud 
+**quiero** que se almacenen los datos de mi reserva 
 
 **para** poder consultar su estado y conocer las condiciones de mi evento.
 
 **Prueba de aceptación**
-- Cada solicitud tendrá un identificador único.
-- Cada solicitud estará asociada al cliente que la haya realizado.
+- Cada reserva tendrá un identificador único.
+- Cada reserva estará asociada al cliente que la haya realizado.
 - Se registrarán el tipo de evento, la fecha y el número de asistentes.
-- Se registrará la modalidad de celebración, indicando si se realizará en un espacio de Eatsii o en una ubicación externa.
-- Cada solicitud tendrá una fecha de creación y un estado.
-- No se permitirá registrar solicitudes sin los datos obligatorios.
+- Se registrará el tipo, indicando si se realizará en un espacio de Eatsii o en una ubicación externa.
+- Cada reserva tendrá una fecha de creación y un estado.
+- No se permitirá registrar reserva sin los datos obligatorios.
 
 
 #### R.I.06. Información de alergias e intolerancias 
