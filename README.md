@@ -145,7 +145,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Prueba de aceptación**
 - Verificar que el administrador pueda ver el listado de solicitudes externas pendientes.
-- Comprobar que el administrador pueda cambiar el estado a "Pendiente", "En revision", "Aceptada" o "Rechazada", añadiendo comentarios explicativos para el cliente.
+- Comprobar que el administrador pueda cambiar el estado a "Pendiente", "En revision", "Aceptado" o "Rechazado", añadiendo comentarios explicativos para el cliente.
 
 #### R.F.07.   Gestión del catálogo de servicios, espacios y alérgenos
 
@@ -309,7 +309,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **quiero** almacenar las reservas confirmadas
 
-**para** controlar la ocupación de los espacios y evitar incompatibilidades de fechas y horarios. Las reservas solo podrán encontrarse en uno de los siguientes estados: pendiente, en revisión, aceptada o  rechazada.
+**para** controlar la ocupación de los espacios y evitar incompatibilidades de fechas y horarios (inicial y final). Las reservas solo podrán encontrarse en uno de los siguientes estados: pendiente, en revisión, aceptada o  rechazada.
 
 **Prueba de aceptación**
 - Cada reserva tendrá un identificador único.
@@ -317,7 +317,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se registrarán la fecha, el horario y el estado de la reserva.
 - Si la reserva corresponde a un espacio de Eatsii, se identificará dicho espacio.
 - No se permitirá confirmar dos reservas del mismo espacio cuyos horarios se solapen.
-- Se podrá consultar la disponibilidad de los espacios para una fecha y un horario determinados
+- Se podrá consultar la disponibilidad de los espacios para una fecha y un horario determinados.
 
 
 #### R.I.09. Información de los alérgenos presentes en los servicios 
@@ -359,29 +359,57 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 Antes de confirmar una nueva reserva  vinculada a un espacio de Eatsii, el sistema deberá comprobar que el número de asistentes indicado en la solicitud asociada no supere el aforo registrado en dicho espacio. Si lo supera, se cancelará la operación. 
 
+**Prueba de aceptación**
+- Verificar que se confirma la reserva cuando el número de comensales es inferior o igual al aforo del espacio de Eatsii.
+
 #### R.N.02. Control de alergias e intolerancias
 
 Las propuestas gastronómicas deberán tener en cuenta las alergias e intolerancias indicadas por el cliente. Los servicios identificados como incompatibles deberán excluirse de las propuestas automáticas. La falta de información sobre un alérgeno no podrá interpretarse como garantía de que el servicio sea seguro.
+
+**Prueba de aceptación**
+- Verificar que, al marcar un alérgeno en la solicitud, los servicios que lo contienen no aparecen en las propuestas automáticas.
+- Comprobar que, al marcar varios alérgenos, se excluyen los servicios que contengan cualquiera de ellos.
 
 #### R.N.03. Viabilidad de las ubicaciones externas
 
 Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuando un administrador haya evaluado y aprobado la viabilidad del desplazamiento y de la prestación del servicio.
 
+**Prueba de aceptación**
+- Comprobar que una solicitud en ubicación externa con viabilidad “Rechazado” no puede confirmarse.
+- Verificar que solo el usuario con rol administrador puede registrar la evaluación de viabilidad.
+- Verificar que esta regla no se aplica a las solicitudes en espacios de Eatsii.
+
 #### R.N.04. Coherencia de los presupuestos
 
-El importe total de un presupuesto deberá coincidir con la suma del precio de la localidad y la cuantía resultante de multiplicar el precio del menú por la cantidad de comensales.
+El importe total de un presupuesto deberá coincidir con la suma de los importes de la localidad y el menu por la cantidad de comensales.
+
+**Prueba de aceptación**
+- Verificar que, si cambia el número de comensales, el presupuesto se recalcula y sigue siendo coherente.
+- Verificar que, si cambia el precio del espacio o del menú, el presupuesto se recalcula o se identifica como desactualizado.
 
 #### R.N.05. Número de asistentes
 
 Toda solicitud deberá indicar un número de asistentes entero y mayor que cero.
 
+**Prueba de aceptación**
+- Comprobar que se rechaza una solicitud con un número de asistentes negativo.
+- Comprobar que se rechaza una solicitud con el campo vacío o con valores no numéricos.
+
 #### R.N.06. Validez de las fechas y horarios
 
 La fecha de un nuevo evento no podrá ser anterior a la fecha actual en el momento de registrar la solicitud. Cuando se indiquen las horas de inicio y finalización, la hora de finalización deberá ser posterior a la de inicio.
 
+**Prueba de aceptación**
+- Comprobar que se rechaza una solicitud con fecha anterior a la fecha actual
+- Verificar que se acepta una solicitud cuya hora de finalización es posterior a la de inicio.
+
 #### R.N.07. Privacidad de las reservas
 
 Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea titular. Los administradores podrán acceder a la información necesaria para realizar sus funciones.
+
+**Prueba de aceptación**
+- Verificar que un cliente solo tiene acceso a las reservas de las que es titular.
+- Verificar que un administrador puede consultar las reservas de todos los clientes para realizar sus funciones.
 
 
 
