@@ -81,7 +81,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Como** cliente
 
-**quiero** filtrar los servicios por tipo de evento (boda, cumpleaños, corporativo)
+**quiero** filtrar los servicios por tipo de evento (particular, corporativo)
 
 **para** visualizar únicamente las propuestas gastronómicas y espacios disponibles.
 
@@ -100,7 +100,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 
 **Prueba de aceptación** 
-- Verificar que el usuario pueda marcar uno o varios alérgenos del catálogo en su perfil o solicitud.
+- Verificar que el usuario pueda marcar uno o varios alérgenos del catálogo en su reserva.
 
 - Comprobar que las propuestas gastronómicas muestren advertencias explícitas o alternativas para los alérgenos marcados.
 
@@ -117,7 +117,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 **Prueba de aceptación**
 - Verificar que el cliente pueda elegir uno de los espacios ofrecidos por Eatsii.
 - Comprobar que se consulte la disponibilidad del espacio para la fecha y el horario seleccionados.
-- Comprobar que la solicitud quede registrada y que el espacio solo se reserve cuando se cumplan las condiciones de confirmación.
+- Comprobar que la reserva quede registrada y que el espacio solo se reserve cuando se cumplan las condiciones de confirmación.
 
 
 #### R.F.05. Solicitud de eventos en localizaciones externas
@@ -131,7 +131,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Prueba de aceptación**
 - Verificar que el cliente pueda introducir la dirección y detalles técnicos del lugar propuesto.
-- Comprobar que la solicitud quede en estado "Pendiente de evaluación de viabilidad".
+- Comprobar que la reserva quede en estado "Pendiente".
 
 
 #### R.F.06.  Evaluación de viabilidad de localizaciones externas
@@ -145,7 +145,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Prueba de aceptación**
 - Verificar que el administrador pueda ver el listado de solicitudes externas pendientes.
-- Comprobar que el administrador pueda cambiar el estado a "Aprobado" o "Rechazado", añadiendo comentarios explicativos para el cliente.
+- Comprobar que el administrador pueda cambiar el estado a "Pendiente", "En revision", "Aceptado" o "Rechazado", añadiendo comentarios explicativos para el cliente.
 
 #### R.F.07.   Gestión del catálogo de servicios, espacios y alérgenos
 
