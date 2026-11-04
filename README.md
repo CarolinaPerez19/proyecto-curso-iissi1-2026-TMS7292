@@ -398,7 +398,7 @@ Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuand
 
 #### R.N.04. Coherencia de los presupuestos
 
-El importe total de un presupuesto deberá coincidir con la suma de los importes de los servicios incluidos y los costes adicionales o ajustes que correspondan.
+El importe total de un presupuesto deberá coincidir con la suma de los importes de la localidad y el menu por la cantidad de comensales.
 
 
 #### R.N.07. Control de permisos
