@@ -145,7 +145,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Prueba de aceptación**
 - Verificar que el administrador pueda ver el listado de solicitudes externas pendientes.
-- Comprobar que el administrador pueda cambiar el estado a "Pendiente", "En revision", "Aceptado" o "Rechazado", añadiendo comentarios explicativos para el cliente.
+- Comprobar que el administrador pueda cambiar el estado a "Pendiente", "En revision", "Aceptada" o "Rechazada", añadiendo comentarios explicativos para el cliente.
 
 #### R.F.07.   Gestión del catálogo de servicios, espacios y alérgenos
 
@@ -381,7 +381,7 @@ Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuand
 
 #### R.N.04. Coherencia de los presupuestos
 
-El importe total de un presupuesto deberá coincidir con la suma de los importes de la localidad y el menu por la cantidad de comensales.
+El importe total de un presupuesto deberá coincidir con la suma del importe de la localidad y la cuantía resultante de la multiplicación del precio del menú por la cantidad de comensales.
 
 **Prueba de aceptación**
 - Verificar que, si cambia el número de comensales, el presupuesto se recalcula y sigue siendo coherente.
