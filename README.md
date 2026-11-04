@@ -182,7 +182,7 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **quiero** visualizar el presupuesto desglosado asociado a una solicitud
 
-**para** conocer elmimporte total.
+**para** conocer el importe total.
 
 
 **Prueba de aceptación**
