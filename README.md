@@ -628,13 +628,15 @@ Consulta y protección de la información
 
 **para** poder organizar un evento asegurándome de que se cumplen las condiciones de capacidad, fecha y presupuesto.
 
-**Estado inicial.** La localidad terrazaTriana tiene un aforo de 80 personas y no tiene ninguna reserva el 12/12/2026. La cliente carmen ha iniciado sesión.
+**Estado inicial.** La localidad terrazaTriana tiene un aforo de 80 personas y no tiene ninguna reserva el 12/12/2026. La cliente Carmen ha iniciado sesión.
 
-**Acción.** carmen solicita un evento corporativo en terrazaTriana para el 12/12/2026 a las 20:00, con el menú menuMed y 80 comensales. Después, la administradora elena revisa la solicitud y la confirma.
+**Acción.** Carmen solicita un evento corporativo en terrazaTriana para el 12/12/2026 a las 20:00, con el menú menuMed y 80 comensales. Después, la administradora Elena revisa la solicitud y la confirma.
 
-**Resultado esperado.** La solicitud se registra en estado `pendiente`. Cuando elena la confirma, pasa a `aceptada`, porque el número de comensales (80) es igual al aforo de la localidad y no lo supera. La fecha es futura y los comensales son un entero mayor que cero, así que se cumplen R.N.05 y R.N.06.
+**Resultado esperado.** La solicitud se registra en estado `pendiente`. Cuando Elena la confirma, pasa a `aceptada`, porque el número de comensales (80) es igual al aforo de la localidad y no lo supera. La fecha es futura y los comensales son un entero mayor que cero, así que se cumplen R.N.05 y R.N.06.
 
 El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce después los comensales a 60, el presupuesto se recalcula a 500 + 40 × 60 = **2.900 €**.
+
+<img width="802" height="294" alt="Diagrama sin título-ESC-01 drawio (1)" src="https://github.com/user-attachments/assets/1eb1ea99-185d-4b8e-8675-aaac1d036ac3" />
 
 
 #### ESC-02. Aforo superado
@@ -649,9 +651,12 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 
 **Estado inicial.** La localidad salonGiralda tiene un aforo de 50 personas y está libre el 15/01/2027. El cliente marco ha iniciado sesión.
 
-**Acción.** marco solicita una reserva en salonGiralda para el 15/01/2027 a las 21:00 con 51 comensales. A continuación, elena intenta confirmarla.
+**Acción.** Marco solicita una reserva en salonGiralda para el 15/01/2027 a las 21:00 con 51 comensales. A continuación, Elena intenta confirmarla.
 
 **Resultado esperado.** El sistema no permite la confirmación y muestra un mensaje de error, porque los 51 comensales superan el aforo de 50. La reserva no pasa a `aceptada` y se rechaza, de modo que el salón sigue libre para otras solicitudes. Si marco corrigiera la solicitud a 50 comensales, sí podría confirmarse.
+
+<img width="802" height="432" alt="Diagrama sin título-ESC-02 drawio" src="https://github.com/user-attachments/assets/e821cb86-3588-4ac7-89b6-3beb76ad1f32" />
+
 
 
 #### ESC-03. Datos de la solicitud no válidos
@@ -666,9 +671,12 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 
 **Estado inicial.** La fecha actual es el 04/11/2026. marco ha iniciado sesión y dispone de la localidad terrazaTriana para solicitar.
 
-**Acción.** marco intenta registrar tres solicitudes incorrectas. La primera indica 0 comensales. La segunda indica 10,5 comensales. La tercera tiene como fecha el 01/11/2026, que ya ha pasado.
+**Acción.** Marco intenta registrar tres solicitudes incorrectas. La primera indica 0 comensales. La segunda indica 10,5 comensales. La tercera tiene como fecha el 01/11/2026, que ya ha pasado.
 
 **Resultado esperado.** Las tres solicitudes se rechazan con un mensaje de error y no se guardan. Las dos primeras incumplen R.N.05, porque el número de comensales debe ser un entero mayor que cero. La tercera incumple R.N.06, porque la fecha es anterior a la actual. En cambio, una solicitud con 1 comensal y fecha del 04/11/2026 sí se registraría, ya que son los valores límite válidos.
+
+<img width="802" height="358" alt="Diagrama sin título-ESC-03 drawio" src="https://github.com/user-attachments/assets/9a2c1cb6-c282-472d-a1a4-60bee47fce41" />
+
 
 
 #### ESC-04. Ingredientes prohibidos en la propuesta de menús
@@ -683,9 +691,12 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 
 **Estado inicial.** Existen tres menús: menuMed, cuyo plato ensaladaMixta incluye tomate; menuMarisco, cuyo plato gambasAjillo incluye crustáceos; y menuGourmet, cuyo plato tartaQueso incluye lácteos. carmen está creando una reserva.
 
-**Acción.** carmen marca *crustáceos* y *lácteos* como ingredientes prohibidos en su reserva y consulta los menús propuestos.
+**Acción.** Crmen marca *crustáceos* y *lácteos* como ingredientes prohibidos en su reserva y consulta los menús propuestos.
 
 **Resultado esperado.** El sistema solo propone menuMed. Los menús menuMarisco y menuGourmet quedan excluidos de las propuestas automáticas, porque cada uno contiene un plato con alguno de los ingredientes prohibidos. Si carmen marcara solo *crustáceos*, se propondrían menuMed y menuGourmet. Los menús propuestos son únicamente los que tienen sus ingredientes registrados y ninguno de ellos prohibido, ya que la falta de información nunca se considera una garantía de seguridad.
+
+<img width="1082" height="336" alt="Diagrama sin título-ESC-04 drawio" src="https://github.com/user-attachments/assets/7f23b85f-5e4c-40c9-9a20-c5aaf6c61f90" />
+
 
 
 #### ESC-05. Ubicaciones externas: viabilidad aprobada y rechazada
@@ -698,12 +709,13 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 
 **para** garantizar que solo se confirmen reservas en ubicaciones que cumplan las condiciones necesarias para realizar el evento.
 
-**Estado inicial.** carmen solicita un evento en fincaOlivar para el 20/03/2027 con 60 comensales. marco solicita otro en cortijoVega para el 10/04/2027 con 40 comensales. Ambas localidades son ubicaciones propuestas por los clientes fuera de las instalaciones de Eatsii, y las dos reservas quedan en estado `pendiente`.
+**Estado inicial.** Carmen solicita un evento en fincaOlivar para el 20/03/2027 con 60 comensales. marco solicita otro en cortijoVega para el 10/04/2027 con 40 comensales. Ambas localidades son ubicaciones propuestas por los clientes fuera de las instalaciones de Eatsii, y las dos reservas quedan en estado `pendiente`.
 
-**Acción.** elena revisa las dos solicitudes y las pasa a `en revisión`. Tras evaluar los lugares, rechaza la de cortijoVega con la observación "Sin acceso para vehículos" y acepta la de fincaOlivar con la observación "Acceso y cocina viables". Después se intenta confirmar de nuevo la reserva rechazada. Además, marco intenta cambiar él mismo el estado de su reserva.
+**Acción.** Elena revisa las dos solicitudes y las pasa a `en revisión`. Tras evaluar los lugares, rechaza la de cortijoVega con la observación "Sin acceso para vehículos" y acepta la de fincaOlivar con la observación "Acceso y cocina viables". Después se intenta confirmar de nuevo la reserva rechazada. Además, marco intenta cambiar él mismo el estado de su reserva.
 
 **Resultado esperado.** La reserva de fincaOlivar pasa a `aceptada` solo después de la evaluación favorable de elena, y carmen puede consultar la observación. La reserva de cortijoVega queda en `rechazada` y no puede confirmarse, igual que ninguna reserva que siga en `pendiente` o `en revisión`. El intento de marco de cambiar el estado se deniega, porque solo un administrador puede registrar la evaluación de viabilidad.
 
+<img width="862" height="362" alt="Diagrama sin título-ESC-05 drawio" src="https://github.com/user-attachments/assets/c79322a7-3ce4-40b5-9272-ca9819f65c7e" />
 
 
 
