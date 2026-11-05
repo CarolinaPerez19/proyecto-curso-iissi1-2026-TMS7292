@@ -548,7 +548,8 @@ Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea ti
 
 ### 5.1. Diagramas de clases UML
 
-- con restricciones.
+<img width="1189" height="1310" alt="Modelado_UML_Eatsii drawio (1)-1copia" src="https://github.com/user-attachments/assets/b65459e3-3583-45e2-8035-8f49ecd6d702" />
+
 
 ### 5.2. Escenarios de prueba
 
@@ -648,40 +649,34 @@ El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
 
 | Requisito | Usuario | Administrador | Cliente | Reserva | Localidad | Menú | Plato | Ingredientes | esSolicitadaPor | esRealizadaEn | elige | contiene | incluye | estánProhibidosEn | R1 (Aforo) | R2 (Disponibilidad) | R3 (Unicidad) | R4 (Datos/Precios) | R5 (Viabilidad) |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| RI.01 | X | X | X | | | | | | | | | | | | | | | X | |
-| RI.02 | | | | | X | X | X | X | | | X | | | | | | X | | |
-| RI.03 | | | | | | X | | | | | | | | X | | | X | | |
-| RI.04 | | | | X | | | | | | | | | | | | x | | | |
-| RI.05 | | | X | X | X | | | | X | X | | | | | | | | X | |
-| RI.06 | | | | X | | | | X | | | | | | X | | | | | |
-| RI.07 | | | | X | | X | | | | | X | | | | | | | X | |
-| RI.08 | | | | X | X | | | | | X | | | | | X | X | | | |
-| RI.09 | | | | X | | X | X | X | | | X | X | | | | | | X | |
-| RI.10 | X | | | X | | | | | | | | | | | | | | | |
-| RI.11 | | X | | X | X | | | | | X | | | | | | | | | X |
-| RF.01 | X | X | X | | | | | | | | | | | | | | | X | |
-| RF.02 | | | | X | X | X | | | | | | | | | | | X | | |
-| RF.03 | | | X | X | | X | X | X | | | | | X | X | | | | X | |
-| RF.04 | | | X | X | X | | | | X | X | | | | | X | X | | | |
-| RF.05 | | | X | X | X | | | | X | X | | | | | | | | | X |
-| RF.06 | | X | | X | X | | | | | X | | | | | | | | | X |
-| RF.07 | | X | | | X | X | X | X | | | | X | X | | X | | X | X | |
-| RF.08 | | | X | X | | | | | X | | | | | | | | | | |
-| RF.09 | | | X | X | | X | X | | | | X | | | | | | | X | |
-| RF.10 | X | | | X | | | | | | | | | | | | | | | |
-| RN.01 | | | | X | X | | | | | X | | | | | X | X | | | |
-| RN.02 | | | | X | | | X | X | | | | | X | | | | | | |
-| RN.03 | | X | | X | X | | | | | X | | | | | | | | | X |
-| RN.04 | | | | X | | X | | | | | X | | | | | | | X | |
-| RN.05 | | | | X | X | | | | X | X | | | | | | X | | | X |
-| RN.06 | | | | X | | | | | | | | | | | | | | X | |
-| RN.07 | | X | | X | X | X | X | X | | | | | | | | | | X | |
-| RN.08 | | | | X | | | | | | | | | | | | | | X | |
-| RN.09 | | | | X | | | | | | | | | | | | | | X | |
-| RN.10 | | | X | X | | | | | X | | | | | | | | | X | |
-| RN.11 | X | | | | | | | | | | | | | | | | | X | |
--- fin entregable 2 --
+|-----------|---------|---------------|---------|---------|-----------|------|-------|--------------|-----------------|---------------|-------|----------|---------|-------------------|------------|---------------------|---------------|--------------------|-----------------|
+| RI.01     | X       | X             | X       |         |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
+| RI.02     |         |               |         |         | X         | X    | X     | X            |                 |               | X     |          |         |                   |            |                     | X             |                    |                 |
+| RI.03     |         |               |         |         |           | X    |       |              |                 |               |       |          |         | X                 |            |                     | X             |                    |                 |
+| RI.04     |         |               |         | X       |           |      |       |              |                 |               |       |          |         |                   |            | X                   |               |                    |                 |
+| RI.05     |         |               | X       | X       | X         |      |       |              | X               | X             |       |          |         |                   |            |                     |               | X                  |                 |
+| RI.06     |         |               |         | X       |           |      |       | X            |                 |               |       |          |         | X                 |            |                     |               |                    |                 |
+| RI.07     |         |               |         | X       |           | X    |       |              |                 |               | X     |          |         |                   |            |                     |               | X                  |                 |
+| RI.08     |         |               |         | X       | X         |      |       |              |                 | X             |       |          |         |                   | X          | X                   |               |                    |                 |
+| RI.09     |         |               |         | X       |           | X    | X     | X            |                 |               | X     | X        |         |                   |            |                     |               | X                  |                 |
+| RI.11     |         | X             |         | X       | X         |      |       |              |                 | X             |       |          |         |                   |            |                     |               |                    | X               |
+| RF.01     | X       | X             | X       |         |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
+| RF.02     |         |               |         | X       | X         | X    |       |              |                 |               |       |          |         |                   |            |                     | X             |                    |                 |
+| RF.03     |         |               | X       | X       |           | X    | X     | X            |                 |               |       |          | X       | X                 |            |                     |               | X                  |                 |
+| RF.04     |         |               | X       | X       | X         |      |       |              | X               | X             |       |          |         |                   | X          | X                   |               |                    |                 |
+| RF.05     |         |               | X       | X       | X         |      |       |              | X               | X             |       |          |         |                   |            |                     |               |                    | X               |
+| RF.06     |         | X             |         | X       | X         |      |       |              |                 | X             |       |          |         |                   |            |                     |               |                    | X               |
+| RF.07     |         | X             |         |         | X         | X    | X     | X            |                 |               |       | X        | X       |                   | X          |                     | X             | X                  |                 |
+| RF.08     |         |               | X       | X       |           |      |       |              | X               |               |       |          |         |                   |            |                     |               |                    |                 |
+| RF.09     |         |               | X       | X       |           | X    | X     |              |                 |               | X     |          |         |                   |            |                     |               | X                  |                 |
+| RN.01     |         |               |         | X       | X         |      |       |              |                 | X             |       |          |         |                   | X          | X                   |               |                    |                 |
+| RN.02     |         |               |         | X       |           |      | X     | X            |                 |               |       |          | X       |                   |            |                     |               |                    |                 |
+| RN.03     |         | X             |         | X       | X         |      |       |              |                 | X             |       |          |         |                   |            |                     |               |                    | X               |
+| RN.04     |         |               |         | X       | X         | X    |       |              |                 |               | X     |          |         |                   |            |                     |               | X                  |                 |
+| RN.08     |         |               |         | X       |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
+| RN.09     |         |               |         | X       |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
+| RN.10     |         |               | X       | X       |           |      |       |              | X               |               |       |          |         |                   |            |                     |               | X                  |                 |
+
 
 ## 7. Modelo relacional en 3FN
 
