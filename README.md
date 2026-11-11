@@ -612,8 +612,7 @@ Consulta y protección de la información
 
 ### 5.1. Diagramas de clases UML
 
-<img width="823" height="874" alt="Modelado_UML_Eatsii drawio" src="https://github.com/user-attachments/assets/05868e7e-92ca-4503-b783-5ba7a483e5d7" />
-
+<img width="823" height="874" alt="Modelado_UML_Eatsii drawio (1)" src="https://github.com/user-attachments/assets/50420da6-b054-4d27-aabe-25936569c002" />
 
 ### 5.2. Escenarios de prueba
 
