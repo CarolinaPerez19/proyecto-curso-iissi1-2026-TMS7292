@@ -633,7 +633,7 @@ Consulta y protección de la información
 
 **Resultado esperado.** La solicitud se registra en estado `pendiente`. Cuando Elena la confirma, pasa a `aceptada`, porque el número de comensales (80) es igual al aforo de la localidad y no lo supera. La fecha es futura y los comensales son un entero mayor que cero, así que se cumplen R.N.05 y R.N.06.
 
-El presupuesto de la reserva es 500 + 40 × 80 = **3.700 €**. Si carmen reduce después los comensales a 60, el presupuesto se recalcula a 500 + 40 × 60 = **2.900 €**.
+El presupuesto de la reserva es (500 + 40 × 80) + 740 = **4.400 €**. Si carmen reduce después los comensales a 60, el presupuesto se recalcula a (500 + 40 × 60) + 580 = **3.480 €**.
 
 <img width="802" height="294" alt="Diagrama sin título-ESC-01 drawio (1)" src="https://github.com/user-attachments/assets/1eb1ea99-185d-4b8e-8675-aaac1d036ac3" />
 
