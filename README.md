@@ -196,13 +196,12 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 
 **Como** administrador
 
-**quiero** disponer de la información identificativa de los usuarios
+**quiero** disponer de la información identificativa de los usuarios: nombre, apellidos, correo electronico y contraseña
 
 **para** gestionar sus cuentas y controlar el acceso a la aplicación.
 
 **Prueba de aceptación**
 - Cada usuario tendrá un identificador único.
-- Se registrarán el nombre, los apellidos, el correo electrónico y la contraseña del usuario.
 - Cada cuenta tendrá asignado un rol, que podrá ser cliente o administrador.
 - Las contraseñas se almacenarán de forma segura y deberán cumplir unos criterios.
 - La contraseña debera tener más de ocho caracteres.
