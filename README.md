@@ -380,7 +380,7 @@ Los servicios solicitados en ubicaciones externas solo podrán confirmarse cuand
 
 #### R.N.04. Coherencia de los presupuestos
 
-El importe total de un presupuesto deberá coincidir con la suma del importe de la localidad y la cuantía resultante de la multiplicación del precio del menú por la cantidad de comensales.
+El importe total de un presupuesto deberá coincidir con la suma del importe de la localidad y la cuantía resultante de la multiplicación del precio del menú por la cantidad de comensales. Más el veinte por ciento del total que constituye el beneficio de la empresa.
 
 **Prueba de aceptación**
 - Verificar que, si cambia el número de comensales, el presupuesto se recalcula y sigue siendo coherente.
