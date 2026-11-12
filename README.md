@@ -412,71 +412,7 @@ Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea ti
 
 
 
-### 4.2. Mapa de historias de usuario
-
-#### RG.01. Gestión de usuarios y acceso al sistema
-
-Registro e inicio de sesión
-- Como usuario, quiero registrarme en la aplicación para acceder a sus funcionalidades.
--  Como usuario registrado, quiero iniciar sesión para acceder a las funcionalidades correspondientes a mi rol.
-Acceso según el rol
-- Como cliente, quiero acceder a las funcionalidades destinadas a los clientes.
-- Como administrador, quiero acceder a las funcionalidades de administración de la empresa.
-
-#### RG.02. Gestión de la oferta de servicios
-
-Consulta de servicios
-- Como cliente, quiero consultar los servicios de catering ofrecidos por Eatsii para conocer las opciones disponibles.
-- Como cliente, quiero filtrar los servicios por tipo de evento para consultar las propuestas que se ajusten a mis necesidades.
-- Como cliente, quiero consultar las características y condiciones de cada servicio para valorar las opciones disponibles.
-Consulta de espacios
-- Como cliente, quiero consultar los espacios ofrecidos por Eatsii para conocer sus características y condiciones.
-Gestión del catálogo
-- Como administrador, quiero gestionar los servicios y espacios para mantener actualizada la oferta de la empresa.
-- Como administrador, quiero actualizar los precios y las características de los servicios y espacios para mantener su información al día.
-
-#### RG.03. Gestión de eventos y solicitudes
-
-Definición de las necesidades del evento
-- Como cliente, quiero seleccionar el tipo de evento para solicitar una propuesta adecuada.
-- Como cliente, quiero indicar el número de asistentes y la fecha del evento para definir las características de mi solicitud.
-- Como cliente, quiero indicar las alergias e intolerancias alimentarias relevantes para que se tengan en cuenta al proponer los servicios gastronómicos.
-Creación y seguimiento de solicitudes
-- Como cliente, quiero enviar una solicitud de servicio para comunicar a Eatsii las características de mi evento.
-- Como cliente, quiero consultar el estado de mis solicitudes para conocer su evolución.
-Revisión de solicitudes
-- Como administrador, quiero consultar y revisar las solicitudes recibidas para gestionar su aceptación o rechazo.
-- Como administrador, quiero registrar la decisión sobre una solicitud para comunicar el resultado de su revisión.
-
-#### RG.04. Gestión económica de los servicios
-
-Consulta y elaboración de presupuestos
-- Como cliente, quiero indicar el presupuesto disponible para que se tengan en cuenta mis posibilidades económicas.
-- Como cliente, quiero consultar el presupuesto asociado a mi solicitud para conocer el coste del evento.
-- Como administrador, quiero elaborar presupuestos asociados a las solicitudes para detallar el coste de los servicios incluidos.
-- Como cliente, quiero consultar los servicios incluidos y sus importes para conocer el desglose del presupuesto.
-  
-#### RG.05. Gestión de la prestación de servicios
-
-Disponibilidad y reservas
-- Como cliente, quiero consultar la disponibilidad de los espacios para la fecha y el horario de mi evento.
-- Como cliente, quiero solicitar la celebración de un evento en un espacio de Eatsii para elegir dónde realizarlo.
-- Como administrador, quiero gestionar las reservas confirmadas para controlar la ocupación de los espacios.
-Ubicaciones externas
-- Como cliente, quiero proponer una ubicación externa para solicitar el servicio fuera de las instalaciones de Eatsii.
-- Como administrador, quiero evaluar la viabilidad de las ubicaciones externas propuestas para determinar si se puede prestar el servicio.
-- Como administrador, quiero registrar el resultado de la evaluación para aprobar o rechazar la ubicación propuesta.
-- Como cliente, quiero conocer el resultado de la evaluación de la ubicación externa para saber si puede realizarse el evento.
-
-#### RG.06. Gestión y control de la información
-
-Gestión de la información de la empresa
-- Como administrador, quiero mantener actualizados los datos de los servicios y espacios para gestionar la oferta de Eatsii.
-- Como administrador, quiero consultar la información de las solicitudes para realizar su seguimiento.
-Consulta y protección de la información
-- Como cliente, quiero consultar las solicitudes asociadas a mi cuenta para realizar su seguimiento.
-- Como usuario, quiero que el acceso a mis datos esté restringido según los permisos establecidos para proteger mi información.
-- Como usuario, quiero recibir notificaciones relacionadas con mis solicitudes para conocer los cambios relevantes.
+### 4.2. Mapa de historias de usuario   (opcional)
 
 
 
@@ -722,37 +658,6 @@ El presupuesto de la reserva es (500 + 40 × 80) x 1.2 = **4.400 €**. Si carme
 ## 6. Matrices de trazabilidad
 
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
-
-| Requisito | Usuario | Administrador | Cliente | Reserva | Localidad | Menú | Plato | Ingredientes | esSolicitadaPor | esRealizadaEn | elige | contiene | incluye | estánProhibidosEn | R1 (Aforo) | R2 (Disponibilidad) | R3 (Unicidad) | R4 (Datos/Precios) | R5 (Viabilidad) |
-|-----------|---------|---------------|---------|---------|-----------|------|-------|--------------|-----------------|---------------|-------|----------|---------|-------------------|------------|---------------------|---------------|--------------------|-----------------|
-| RI.01     | X       | X             | X       |         |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
-| RI.02     |         |               |         |         | X         | X    | X     | X            |                 |               | X     |          |         |                   |            |                     | X             |                    |                 |
-| RI.03     |         |               |         |         |           | X    |       |              |                 |               |       |          |         | X                 |            |                     | X             |                    |                 |
-| RI.04     |         |               |         | X       |           |      |       |              |                 |               |       |          |         |                   |            | X                   |               |                    |                 |
-| RI.05     |         |               | X       | X       | X         |      |       |              | X               | X             |       |          |         |                   |            |                     |               | X                  |                 |
-| RI.06     |         |               |         | X       |           |      |       | X            |                 |               |       |          |         | X                 |            |                     |               |                    |                 |
-| RI.07     |         |               |         | X       |           | X    |       |              |                 |               | X     |          |         |                   |            |                     |               | X                  |                 |
-| RI.08     |         |               |         | X       | X         |      |       |              |                 | X             |       |          |         |                   | X          | X                   |               |                    |                 |
-| RI.09     |         |               |         | X       |           | X    | X     | X            |                 |               | X     | X        |         |                   |            |                     |               | X                  |                 |
-| RI.10     |         | X             |         | X       | X         |      |       |              |                 | X             |       |          |         |                   |            |                     |               |                    | X               |
-| RF.01     | X       | X             | X       |         |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
-| RF.02     |         |               |         | X       | X         | X    |       |              |                 |               |       |          |         |                   |            |                     | X             |                    |                 |
-| RF.03     |         |               | X       | X       |           | X    | X     | X            |                 |               |       |          | X       | X                 |            |                     |               | X                  |                 |
-| RF.04     |         |               | X       | X       | X         |      |       |              | X               | X             |       |          |         |                   | X          | X                   |               |                    |                 |
-| RF.05     |         |               | X       | X       | X         |      |       |              | X               | X             |       |          |         |                   |            |                     |               |                    | X               |
-| RF.06     |         | X             |         | X       | X         |      |       |              |                 | X             |       |          |         |                   |            |                     |               |                    | X               |
-| RF.07     |         | X             |         |         | X         | X    | X     | X            |                 |               |       | X        | X       |                   | X          |                     | X             | X                  |                 |
-| RF.08     |         |               | X       | X       |           |      |       |              | X               |               |       |          |         |                   |            |                     |               |                    |                 |
-| RF.09     |         |               | X       | X       |           | X    | X     |              |                 |               | X     |          |         |                   |            |                     |               | X                  |                 |
-| RN.01     |         |               |         | X       | X         |      |       |              |                 | X             |       |          |         |                   | X          | X                   |               |                    |                 |
-| RN.02     |         |               |         | X       |           |      | X     | X            |                 |               |       |          | X       |                   |            |                     |               |                    |                 |
-| RN.03     |         | X             |         | X       | X         |      |       |              |                 | X             |       |          |         |                   |            |                     |               |                    | X               |
-| RN.04     |         |               |         | X       | X         | X    |       |              |                 |               | X     |          |         |                   |            |                     |               | X                  |                 |
-| RN.05     |         |               |         | X       |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
-| RN.06     |         |               |         | X       |           |      |       |              |                 |               |       |          |         |                   |            |                     |               | X                  |                 |
-| RN.07     |         |               | X       | X       |           |      |       |              | X               |               |       |          |         |                   |            |                     |               | X                  |                 |
-
-
 
 
 | Requisito | Usuario | Administrador | Cliente | Reserva | Localidad | Menú | Plato | Ingrediente | Alérgenos | esSolicitadaPor | esRealizadaEn | seElige | contiene | incluye | seRestringen | pertenece | R1 (Aforo) | R2 (Disponibilidad) | R3 (Unicidad) | R4 (Datos/Precios) | R5 (Viabilidad) |
