@@ -350,7 +350,17 @@ Serán los responsables de gestionar la información de la empresa dentro de la 
 - Se registrará el resultado de la evaluación de viabilidad.
 - No se confirmará una solicitud en una ubicación externa sin una evaluación favorable de su viabilidad.
 
+#### R.I.11.  Seguimiento de confirmación por administradores
 
+**Como** dueño de la empresa.
+
+**quiero** conocer que administrador es el que supervisa y decide la viabilidad de cada reserva.
+
+**para** controlar la cantidad de reservas supervisadas y poder reconocer al responsable en caso de un error.
+
+**Prueba de aceptación**
+- Todas las reservas deberán de estar relacionadas con un administrador que las estudie.
+- El sistema deberá permitir identificar al administrador responsable de una reserva en caso de que se produzca un error.
 
 ### 4.1.2. Reglas de negocio
 
