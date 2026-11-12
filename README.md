@@ -548,7 +548,7 @@ Cada cliente solo podrá consultar y gestionar las solicitudes de las que sea ti
 
 ### 5.1. Diagramas de clases UML
 
-<img width="808" height="874" alt="Modelado_UML_Eatsii drawio (2)" src="https://github.com/user-attachments/assets/88f692cc-fae0-4fed-a7e3-ba8fc3646b4f" />
+<img width="808" height="874" alt="Modelado_UML_Eatsii drawio (3)" src="https://github.com/user-attachments/assets/c5a2cc50-c86f-4287-a72b-08c6c692705e" />
 
 ### 5.2. Escenarios de prueba
 
